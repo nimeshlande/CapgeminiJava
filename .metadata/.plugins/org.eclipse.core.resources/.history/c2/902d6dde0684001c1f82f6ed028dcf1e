@@ -1,0 +1,19 @@
+package Capgemini.com;
+
+public class FloatMethods {
+	public static void main(String[] args) {
+		
+		float a = 5.55F;
+		
+		String str = "10";
+		
+		
+		//toString Method
+		System.out.println("toString(a) = " + Float.toString(a));
+
+		
+		float b = Float.parseFloat(str);
+		  System.out.println("parseFloat(bb) = " + b);
+	}
+	
+}

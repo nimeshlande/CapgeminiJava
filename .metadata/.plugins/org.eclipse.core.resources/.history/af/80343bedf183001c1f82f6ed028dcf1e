@@ -1,0 +1,60 @@
+package capgemini.java;
+import java.util.*;
+
+import org.omg.CosNaming._NamingContextExtStub;
+
+
+
+
+class Details {
+	
+
+	
+	
+	private String name;
+	private int iD;
+	private int salary;
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getiD() {
+		return iD;
+	}
+	public void setiD(int iD) {
+		this.iD = iD;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	
+	@Override
+	public String toString(){
+		return "EmployeeInfo [Name of Employee= " + name + ", EMployee ID= " + iD + ",Employee salary= " + salary + "]";
+		
+	}
+	Details(){
+		
+	}
+	
+	public Details(String name, int iD, int salary) {
+		super();
+		this.name = name;
+		this.iD = iD;
+		this.salary = salary;
+		
+	}
+	
+	
+	
+	
+	
+
+}

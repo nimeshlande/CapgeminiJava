@@ -1,0 +1,80 @@
+package capgemini.java2;
+
+class Phone{
+	//attributes or member vairables
+	private int price;
+	private String brand;
+	private String Color;
+	private int storage;
+	private double screenSize;
+	
+	Phone(){}
+	
+	//to store value we use constructor and getter setter methods
+	public Phone(int price, String brand, String color, int storage, double d) {
+		super();
+		this.price = price;
+		this.brand = brand;
+		Color = color;
+		this.storage = storage;
+		this.screenSize = d;
+	}
+	
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public String getBrand() {
+		return brand;
+	}
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+	public String getColor() {
+		return Color;
+	}
+	public void setColor(String color) {
+		Color = color;
+	}
+	public int getStorage() {
+		return storage;
+	}
+	public void setStorage(int storage) {
+		this.storage = storage;
+	}
+	public double getScreenSize() {
+		return screenSize;
+	}
+	public void setScreenSize(double screenSize) {
+		this.screenSize = screenSize;
+	}
+	
+	public void print() {
+		System.out.println("Brand: "+this.brand);
+		System.out.println("Price: "+this.price);
+		System.out.println("Color: "+this.Color);
+		System.out.println("Storage: "+this.storage);
+		System.out.println("Screen size: "+this.screenSize);
+		
+		
+		
+	}
+	
+	
+}
+{Phone p1 = new Phone(1000,"Nokia", "Blue", 64, 5.3);
+p1.print();}
+public class MyClass {
+	public static void main(String[] args) {
+		
+		
+		Phone p2 = new Phone();
+		p2.print();
+	}
+}
+
+
+
+

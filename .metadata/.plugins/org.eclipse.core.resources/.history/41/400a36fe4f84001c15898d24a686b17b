@@ -1,0 +1,11 @@
+package Capgemini.com;
+
+public class stringMethod {
+	public static void main(String[] args) {
+		
+		String name = "Nimesh";
+		char n = name.charAt(3);
+		System.out.println(n);
+	}
+      
+}

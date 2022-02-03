@@ -1,0 +1,13 @@
+package Capgemini.com;
+
+public class FloatMethods {
+	public static void main(String[] args) {
+		
+		float a = 5.55F;
+		
+		System.out.println("toString(b) = " + Float.toString(a));
+
+		
+	}
+	
+}

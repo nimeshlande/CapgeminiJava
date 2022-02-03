@@ -1,0 +1,32 @@
+package capgemini.java;
+
+package com.javaDay4;
+
+class MyShape
+{
+	public void draw(int a, int b)
+	{
+		System.out.println("Line Drawing");
+	}
+	public void draw(int a, int b,int c)
+	{
+		System.out.println("Circle Drawing");
+	}
+	public void draw(int a, int b,int c,int d)
+	{
+		System.out.println("Square Drawing");
+	}
+}
+
+public class Polymorphism {
+	
+	public static void main(String args[])
+	{
+		MyShape s=new MyShape();
+		s.draw(1,1);
+		s.draw(1,1,1);
+		s.draw(1,1,1,1);
+		
+	}
+
+}

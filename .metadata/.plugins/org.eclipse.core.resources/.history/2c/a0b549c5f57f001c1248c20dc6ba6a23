@@ -1,0 +1,22 @@
+package capgemini.java2;
+
+class Student {
+	
+	public String toString() {
+		return
+	}
+	public Student(int rollno , String name) {
+		super();
+		this.rollno =rollno;
+		this.name = name;
+	}
+	private int rollno;
+	private String name;
+	static String schoolName;
+
+}
+public class MyStatic{
+	public static void main(String[] args) {
+		
+	}
+}
