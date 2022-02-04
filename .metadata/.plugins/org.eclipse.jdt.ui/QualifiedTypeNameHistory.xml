@@ -2,4 +2,5 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.security.DomainLoadStoreParameter"/>
     <fullyQualifiedTypeName name="java.net.MulticastSocket"/>
+    <fullyQualifiedTypeName name="java.security.ProtectionDomain"/>
 </qualifiedTypeNameHistroy>
