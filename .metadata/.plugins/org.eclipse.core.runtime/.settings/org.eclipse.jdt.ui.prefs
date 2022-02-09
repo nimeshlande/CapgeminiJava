@@ -1,5 +1,5 @@
-content_assist_category_order=org.eclipse.jdt.ui.javaChainProposalCategory\:0\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\:1\u0000org.eclipse.jdt.ui.textProposalCategory\:2\u0000org.eclipse.jdt.ui.javaAllProposalCategory\:3\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\:4\u0000org.eclipse.jdt.ui.templateProposalCategory\:5\u0000org.eclipse.jdt.ui.swtProposalCategory\:6\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\:7\u0000
-content_assist_disabled_computers=org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
+content_assist_category_order=org.eclipse.jdt.ui.javaChainProposalCategory\:0\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\:1\u0000org.eclipse.jdt.ui.textProposalCategory\:2\u0000org.eclipse.jdt.ui.javaAllProposalCategory\:3\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\:65539\u0000org.eclipse.jdt.ui.templateProposalCategory\:5\u0000org.eclipse.jdt.ui.swtProposalCategory\:6\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\:7\u0000
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
 content_assist_number_of_computers=12
 content_assist_proposals_background=255,255,255
